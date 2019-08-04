@@ -1,7 +1,7 @@
 public class Renshu02 {
 	public static void main(String args[]) {
 		FileInfo fi1,fi2;
-		fi1 = new FileInfo("sample.txt",1536);
+		fi1 = new FileInfo("sample.txt",1024);
 		fi2 = new FileInfo("test.doc",16380);
 		FileInfo fi3 = fi2;
 		System.out.print("file1:"+fi1.getFileName());

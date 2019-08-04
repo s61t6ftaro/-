@@ -17,7 +17,7 @@ public class FileInfo {
 		}
 
 		public void addFileSize(int addSize) {
-
+//1024の値が入ってるfile1にaddsizeで512増やす
 		}
 
 }
