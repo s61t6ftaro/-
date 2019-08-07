@@ -5,7 +5,6 @@ public class FileInfo {
 		public FileInfo(String fileName,int fileSize) {
 				this.fileName = fileName;
 				this.fileSize = fileSize;
-				fileSize=0;
 		}
 
 		public String getFileName() {
@@ -17,7 +16,8 @@ public class FileInfo {
 		}
 
 		public void addFileSize(int addSize) {
-//1024の値が入ってるfile1にaddsizeで512増やす
+			fileSize = fileSize + addSize(;)
+			//1024の値が入ってるfile1にaddsizeで512増やす
 		}
 
 }
